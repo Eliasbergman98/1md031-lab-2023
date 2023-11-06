@@ -1,4 +1,69 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+section{
+    margin-top: 2em;
+}
+
+#idname{
+    text-align: left;
+    font-size: 0.6em;
+    padding: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+header{
+    margin: 2em;
+    background-image: url("../img/header.jpg");
+    height: 10em;
+    background-size:cover;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 3em;
+    color: white;
+}
+
 .burgare{
-    width: 300px;
-    height: 200px;
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 12em;
+    height: 10em;
+}
+
+.contactinfo{
+    background-color: black;
+    color: white;
+}
+button{
+    margin: 2em;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.Burgerinfo,.contactinfo{
+    margin: 2em;
+    padding-left:2em;
+    border: 1em solid blue;
+    border-style: dotted;
+    margin-top: 2em;
+}
+.wrapper{
+    font-size: 1em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    color: #444; 
+}
+
+.box {
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 }

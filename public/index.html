@@ -1,22 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en">
-   <head>
-       <meta charset="utf-8"/>
-       <link rel="stylesheet" href="css/style.css">
-       <title>Illkans smashedburgers</title>
-       <meta charset="utf-8"/>
-   </head>
-   <body>
-    <header>    
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Illkans smashedburgers</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
         <h1>Välkommen till BurgerOnline</h1>
     </header>
-    <nav> Menu items </nav>
     <main>
-        <section1>
+        <section class="Burgerinfo">
             <h1>Select burger</h1>
             <p> This is where you execute burger selection</p>
-                <div class="burgare" style="display: inline-block;">
-                    <h1>The Fire Burger</h1>
+            <div class="wrapper">
+                <div class="box a">
+                    <h1> <span id="idname">The Fire Burger</span></h1>
                     <img class="burgare" src="img/burger1.jpg" alt="view">
                     <ol>
                         Contains:
@@ -24,8 +26,8 @@
                         <li>Dairy</li>
                     </ol>
                 </div>
-                <div class="burgare" style="display: inline-block;">
-                    <h1>The vegan Burger</h1>
+                <div class="box b">
+                    <h1> <span id="idname">The Vegan Burger</span></h1>
                     <img class="burgare" src="img/burger2.jpg" alt="view">
                     <ol>
                         Contains:
@@ -33,8 +35,8 @@
                         <li>grass</li>
                     </ol>
                 </div>
-                <div class="burgare" style="display: inline-block;">
-                    <h1>The godess Burger</h1>
+                <div class="box c">
+                    <h1> <span id="idname">The Godess Burger</span></h1>
                     <img class="burgare" src="img/burger4.jpg" alt="view">
                     <ol>
                         Contains:
@@ -42,13 +44,15 @@
                         <li>amazingness</li>
                     </ol>
                 </div>
-        </section1>
-        <section id="contact">
+            </div>
+        </section>
+        <section id="contact" class="contactinfo">
             <h1>Customer information</h1>
             <form>
                 <p>
                     <label for="firstname and lastname">First and lastname</label><br>
-                    <input type="text" id="firstname and lastname" name="fnln" required="required" placeholder="Enter name">
+                    <input type="text" id="firstname and lastname" name="fnln" required="required"
+                        placeholder="Enter name">
                 </p>
                 <p>
                     <label for="email">E-mail adress</label><br>
@@ -63,13 +67,14 @@
                     <input type="text" id="house" name="ad" required="required" placeholder="Enter housenumber">
                 </p>
                 <p>
-                    <label for="Payement">Payment-method</label><be>
+                    <label for="Payement">Payment-method</label>
+                    <be>
                         <select id="payment" name="pmt">
                             <option selected="selected">Klarna</option>
                             <option>Visa</option>
                             <option>Mastercard</option>
                             <option>Cash</option>
-                        </select>  
+                        </select>
                 </p>
                 <p style="display:inline-block;">
                     Enter gender:<br>
@@ -77,24 +82,26 @@
                     <label for="Gender">Male</label><br>
                     <input type="radio" id="house" name="gender" required="required" placeholder="Enter Gender">
                     <label for="Gender">Female</label><br>
-                    <input type="radio" id="house" name="gender" required="required" placeholder="Enter Gender" checked="checked">
+                    <input type="radio" id="house" name="gender" required="required" placeholder="Enter Gender"
+                        checked="checked">
                     <label for="Gender">do not wish to provide</label><br>
-                    
+
                 </p>
             </form>
             <p>
                 <button type="submit">
-                <img src="img/deliverfood.jpg"><br>
-                Send IT
+                    <img src="img/deliverfood.jpg"><br>
+                    Send IT
                 </button>
             </p>
-            
 
-        </section2>
+
+        </section>
     </main>
     <footer>
         <hr>
         <p>2018 Hypothetical burgers</p>
     </footer>
-   </body>
+</body>
+
 </html>

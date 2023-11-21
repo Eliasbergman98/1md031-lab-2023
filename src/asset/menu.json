@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Jons Ostburgare",
+      "kCal": 700,
+      "lactose": true,
+      "gluten": false,
+      "img": "img/burger1.jpg"
+    },
+    {
+        "name": "Harrys Ostburgare",
+        "kCal": 600,
+        "lactose": false,
+        "gluten": true,
+        "img": "img/burger2.jpg"
+      },
+      {
+        "name": "Jons veganska",
+        "kCal": 800,
+        "lactose": true,
+        "gluten": true,
+        "img": "img/burger3.jpg"
+      }
+  ]
